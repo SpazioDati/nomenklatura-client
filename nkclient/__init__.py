@@ -62,7 +62,7 @@ class NKLink(object):
 class NKDataset(object):
 
     def __init__(self, dataset,
-                 host='http://nomenklatura.okfnlabs.org',
+                 host='http://nomenklatura.pudo.org',
                  api_key=None):
         self.host = host
         self.name = dataset
